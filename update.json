@@ -1,0 +1,32 @@
+{
+  "updatePacientes": {
+    "query": {
+      "id": "pa3"
+    },
+    "update": {
+      "$set": {
+        "condicion": "Alzheimer avanzado"
+      }
+    }
+  },
+  "updateDoctores": {
+    "query": {
+      "id": "doc5"
+    },
+    "update": {
+      "$set": {
+        "especialidad": "Dermatología y Cirugía estética"
+      }
+    }
+  },
+  "updateCitasMedicas": {
+    "query": {
+      "id": "cm6"
+    },
+    "update": {
+      "$set": {
+        "diagnostico": "Completo: Tratamiento cardiaco exitoso"
+      }
+    }
+  }
+}
