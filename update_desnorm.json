@@ -1,0 +1,22 @@
+{
+  "updatePacientesDesnorm": {
+    "query": {
+      "id": "pa3"
+    },
+    "update": {
+      "$set": {
+        "condicion": "Alzheimer avanzado"
+      }
+    }
+  },
+  "updateCitasMedicasDesnorm": {
+    "query": {
+      "id": "cm3"
+    },
+    "update": {
+      "$set": {
+        "diagnostico": "Tratamiento completado: Se administraron terapias cognitivas"
+      }
+    }
+  }
+}
