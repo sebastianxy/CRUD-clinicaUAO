@@ -1,0 +1,41 @@
+{
+  "createPacientes": [
+    {
+      "id": "pa11",
+      "nombre": "Carlos",
+      "apellido": "Ramirez",
+      "edad": 33,
+      "cedula": "876543210",
+      "condicion": "Hipertensión",
+      "iddoctor": {
+        "$oid": "66f4751dc8b6caa467f91503"
+      }
+    }
+  ],
+  "createDoctores": [
+    {
+      "id": "doc11",
+      "nombre": "Pedro",
+      "apellido": "Carmona",
+      "edad": 50,
+      "cedula": "987654999",
+      "especialidad": "Oftalmología"
+    }
+  ],
+  "createCitasMedicas": [
+    {
+      "id": "cm11",
+      "horario": "12:00",
+      "consultorio": "305",
+      "medicoTratante": "Pedro Carmona",
+      "iddoctor": {
+        "$oid": "66f475dbc8b6caa467f91506"
+      },
+      "paciente": "Carlos Ramirez",
+      "idpaciente": {
+        "$oid": "66f46db5c8b6caa467f914e7"
+      },
+      "diagnostico": "Pendiente"
+    }
+  ]
+}
