@@ -1,0 +1,11 @@
+{
+  "readPacientes": {
+    "id": "pa2"
+  },
+  "readDoctores": {
+    "id": "doc3"
+  },
+  "readCitasMedicas": {
+    "id": "cm4"
+  }
+}
