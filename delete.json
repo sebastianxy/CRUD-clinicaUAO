@@ -1,0 +1,11 @@
+{
+  "deletePacientes": {
+    "id": "pa7"
+  },
+  "deleteDoctores": {
+    "id": "doc6"
+  },
+  "deleteCitasMedicas": {
+    "id": "cm9"
+  }
+}
